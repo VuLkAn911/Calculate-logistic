@@ -25,7 +25,7 @@ func main() {
 	fmt.Scan(&Fragile)
 
 	BaseRate2 := (weight*BaseRate)*(1+FragileFee*Fragile) + (Distance * DistanceRate)
-	total := BaseRate2 + TaxRate
+	total := BaseRate2 * TaxRate
 
 	fmt.Println("---Отчет о доставке---")
 	fmt.Printf(" Отправитель:%s\n Итоговая стоимость: %.2f\n", name, total)
