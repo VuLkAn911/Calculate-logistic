@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+
 func main() {
 	const BaseRate = 5.50
 	const TaxRate = 0.12
